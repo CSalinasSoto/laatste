@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 970px;
+}
+.container{
+    width: 300px;
+    float: left;
+    height: 240px;
+    margin: 10px;
+    padding: 0;
+}
+
+.picture{
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+}
+.picture img{
+    width: 100%;
+
+}
+
+h4{
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+
+p#source{
+    clear: both;
+    text-align: center;
+}
+
+p#source a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+.inhoud{
+    border: 1px solid black;
+    border-radius: 5px;
+    background:linear-gradient(black,grey);
+}
+
+.inhoud img{
+    border-radius: 7px;
+}
+
+/*.inhoud h4{*/
+    /*width: 100%;*/
+/*}*/
